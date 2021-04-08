@@ -1,0 +1,13 @@
+{
+       Scanner entrada= new Scanner(System.in);
+        System.out.println("Ingrese un número y se mostraran los anteriores");
+        int numero = 1;
+        numero=entrada.nextInt();
+        int i=1;
+        while (i<=numero){
+            System.out.println(i);
+            i++;
+        }
+    }
+    
+}
