@@ -1,0 +1,14 @@
+{
+        Scanner entrada= new Scanner (System.in);
+        int numero;
+        System.out.println("Introduce número entero");
+        numero=entrada.nextInt();
+        if (numero%10==0){
+          System.out.println("Es múltiplo de 10");}
+        else{
+        System.out.println("No es múltiplo de 10");}
+        
+        
+    }
+    
+}
