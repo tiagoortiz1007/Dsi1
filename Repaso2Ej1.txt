@@ -1,0 +1,11 @@
+{
+        Scanner key=new Scanner(System.in);
+        float v;
+        float r;
+        System.out.println("Exprese la V(velocidad) en km/h: ");
+        v = key.nextInt();
+        r = v / 3.6f; 
+        System.out.println("la velocidad en m/s es: " + r);
+    }
+    
+}
