@@ -1,0 +1,11 @@
+ {
+      Scanner entrada=new Scanner (System.in);
+      int numero;
+      int i = 0;
+        System.out.println("Ingrese un número y se mostraran los múltiplos de 6 hasta dicho numero");
+        numero=entrada.nextInt();
+        while(i<=numero){
+            if(i%6==0){
+                System.out.println(i);
+        }
+        i++;
